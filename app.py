@@ -12,7 +12,7 @@ from model.recommend import recommend
 
 app = Flask(__name__)
 app.secret_key = "movie_secret_key"
-API_KEY = "8d2b5083f34b20fad71c7acf31eecd0c"
+API_KEY = "YOUR_ACTUAL-TMDB_API_KEY"
 load_dotenv()
 oauth = OAuth(app)
 google = oauth.register(
